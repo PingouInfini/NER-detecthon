@@ -1,11 +1,28 @@
 ## Prerequis
+1. Installation des libs nécessaires
 
-unzip
-- "stanford-ner/classifiers/trained-ner-model-french-ser.zip"
+       pip install -r requirements.txt
 
-and move file to get\
-- "stanford-ner/classifiers/trained-ner-model-french-ser.giz"
+2. Installation
+ 
+       python
+       >>> import nltk
+       >>> nltk.download()
+     
+    * La popup "NLTK Downloader" s'ouvre après qq sec, sélectionner "all", puis DOWNLOAD
+    * Une fois toutes les collections récupérées, fermer la fenêtre, et passer à la prochaine étape [exit() dans le terminal pour quitter]
+    * /!\ /!\ /!\ add "NLTK_DATA", varEnv qui cible le répertoire du download /!\ /!\ /!\
 
+3. Mise en place du dictionnaire 
+
+- unzip
+-     "[...]/stanford-ner/classifiers/trained-ner-model-french-ser.zip"
+- and move file to get
+-     "[...]/stanford-ner/classifiers/trained-ner-model-french-ser.giz"
+
+
+
+	
 	
 ===
 
